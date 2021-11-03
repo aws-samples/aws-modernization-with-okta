@@ -5,7 +5,7 @@ defaultContentLanguage = "en"
 title = "Okta AWS SSO integration Workshop"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= "true"
+defaultContentLanguageInSubdir= "false"
 uglyurls = "true"
 enableEmoji = true
 
