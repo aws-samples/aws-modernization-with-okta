@@ -11,23 +11,23 @@ Parameters:
   ProjectName:
     Type: String
     Description: Project Name
-    Default: xxxxxxxx
+    Default: okta
   WebsiteBucket:
     Type: String
     Description: Website S3 bucket name
-    Default: xxxxxxxx.awsworkshop.io 
+    Default: okta.awsworkshop.io 
   CloudFrontDistroId:
     Type: String
     Description: CloudFront distribution ID 
-    Default: xxxxxxxx
+    Default: E29NZ5RZO4OYLW
   GitHubRepo:
     Type: String
     Description: repo name
-    Default: aws-modernization-xxxxxxx
+    Default: aws-modernization-with-okta
   FullRepoURL:
     Type: String
     Description: The full url to the repo
-    Default: https://github.com/aws-samples/aws-modernization-xxxxxxxx.git  
+    Default: https://github.com/aws-samples/aws-modernization-with-okta.git  
   GitHubOwner:
     Type: String
     Description: GitHub owner name
@@ -62,7 +62,9 @@ Resources:
                   - s3:GetObject
                   - s3:PutObject
                   - s3:GetObjectVersion
-              - Resource: !Sub arn:aws:s3:::${WebsiteBucket}/*
+              - Resource: 
+                  - !Sub arn:aws:s3:::${WebsiteBucket}/*
+                  - !Sub arn:aws:s3:::${WebsiteBucket} 
                 Effect: Allow
                 Action:
                   - s3:GetObject
