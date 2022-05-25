@@ -7,6 +7,13 @@ In this use case, you will sign in to the AWS CLI with Okta via AWS SSO.
 
 AWS CLI v2 supports direct integration with AWS Single Sign-On (SSO). You can now create CLI profiles that are linked to SSO accounts and roles. The CLI will automatically retrieve AWS credentials from SSO and refresh them on your behalf. There are new commands to help manage the CLI SSO profiles. This eliminates the need to copy and paste temporary AWS credentials from the AWS SSO console.
 
+### Option A: Credentials from AWS Dashboard
+Open the AWS SSO Dashboard and click on "Command line or programmatic access". This will provide multiple options to access the CLI.
+![AWS CLI Authorize Request](/images/760_aws_dashboard_cli.png)
+
+
+### Option B: Configuration Commands
+
 Execute in a terminal ***aws configure sso*** and follow the instructions.
 - **SSO start URL**: Sign in to the AWS Dashboard and copy the URL.
 - **SSO Region**: Sign in to your AWS Account and copy the Region of AWS SSO.

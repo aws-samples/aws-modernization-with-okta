@@ -11,7 +11,7 @@ Enter “AWS Single Sign-on” in the search box and click on “AWS Single Sign
 
 ![Add Application Selection](/images/100_add_application_selection.png)
 
-Click on the “Add” button.
+Click on the “Add Integration” button.
 The Application wizards open and click “Done”.
 
 ![Application Wizard](/images/120_application_wizard.png)

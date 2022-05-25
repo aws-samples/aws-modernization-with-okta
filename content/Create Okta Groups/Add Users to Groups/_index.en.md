@@ -10,7 +10,7 @@ Click on the “AWS PowerUserAccess” Group Name.
 
 ![Click on Group Name](/images/130_click_on_group_name.png)
 
-Click on “Manage People”
+Click on "Assign People”
 
 ![Manage People](/images/140_manage_people.png)
 

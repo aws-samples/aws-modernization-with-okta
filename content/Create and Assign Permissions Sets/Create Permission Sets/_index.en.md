@@ -7,18 +7,14 @@ Go to AWS SSO.
 
 ![Create Permission Set](/images/go_to_aws_sso.png)
 
-Select "AWS accounts", click on "Permission sets" and  "Create permission set"
+Select "Permission sets" and click on "Create permission set"
 ![Create Permission Set](/images/create_permission_set.png)
 
-The Wizard provides multiple options. For this Workshop we use an existing job function policy. There are multiple "common" job functions already configured, but you can always create a custom permission set with the AWS managed policies or even with your own policy document.
+The Wizard provides multiple options. For this Workshop, we use an existing job function policy. There are multiple "common" job functions already configured, but you can always create a custom permission set with the AWS managed policies or even with your own policy document.
 
-Select "Use an existing job function policy" and click on "Next".
+Select "Use an existing job function policy", select "ViewOnlyAccess" and click on "Next.
 
 ![Create Permission Type](/images/create_permission_type.png)
-
-Select "ViewOnlyAccess" and click on "Next".
-
-![Create Permission Details](/images/create_permission_details.png)
 
 Click "Next" and on the last page on "Create".
 
