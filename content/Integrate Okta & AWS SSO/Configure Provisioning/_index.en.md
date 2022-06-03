@@ -3,7 +3,7 @@ title = "Configure Provisioning"
 chapter = false
 weight = 43
 +++
-Select the tab “Provisioning”, click on “AWS: Configuration Guide” and follow the instructions of step 1 and 2. Don't do step 3 and so on, this will be covered as part of this workshop.
+Select the tab “Provisioning”, click on “AWS: Configuration Guide” and follow the instructions of steps 1 and 2. Don't do step 3 and so on, this will be covered as part of this workshop.
 
 {{% notice info %}}
 When you copy the URL, make sure there is no "/" at the end or link validation in Okta will fail.

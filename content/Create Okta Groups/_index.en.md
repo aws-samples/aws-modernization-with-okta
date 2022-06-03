@@ -9,7 +9,7 @@ The assignment of Permissions Sets in AWS SSO can be configured per user. Howeve
 We will create two groups in Okta for this workshop: “AWS PowerUserAccess” and “AWS ViewOnlyAccess”. The users will be managed in Okta and automatically provisioned to AWS SSO.
 
 {{% notice info %}}
-We will use groups which are managed in Okta, but as you can see in the screenshot are groups supported from multiple sources e.g. AD, LDAP, Workday, Google, Microsoft365. On top of that you can also create dynamic Groups in Okta e.g. based on User Attributes such as Department.
+We will use groups that are managed in Okta, but as you can see in the screenshot are groups supported from multiple sources e.g. AD, LDAP, Workday, Google, and Microsoft365. On top of that, you can also create dynamic Groups in Okta e.g. based on User Attributes such as Department.
 ![Okta Group Sources](/images/40_okta_groups_sources.jpg)
 {{% /notice %}}
 

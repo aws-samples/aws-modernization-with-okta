@@ -24,4 +24,4 @@ This workshop is broken into the sections listed below. Estimated time for compl
 - Test (5 min)
 - Cleanup (5 min)
 
-This workshop is focused on the initial integration of Okta and AWS SSO. The section "Additional Use Cases" is optional and will extend the demo enviroment or describes some more advanced topics. Please find the ones relevant for you and try them out.
+This workshop is focused on the initial integration of Okta and AWS SSO. The section "Additional Use Cases" is optional and will extend the demo environment or describes some more advanced topics. Please find the ones relevant for you and try them out.

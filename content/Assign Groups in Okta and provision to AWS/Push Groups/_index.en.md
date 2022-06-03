@@ -12,7 +12,7 @@ Enter “aws” in the search field and select “AWS PowerUserAccess”.
 ![Push Groups aws PowerUserAccess](/images/250_push_group_aws_powerUserAccess.png)
 
 {{% notice info %}}
-If the group name exists not yet in AWS SSO, Okta will create a new one. Otherwise an existing group will be linked.
+If the group name exists not yet in AWS SSO, Okta will create a new one. Otherwise, an existing group will be linked.
 {{% /notice %}}
 
 Click on “Save & Add Another”. Repeat the same step for “AWS ViewOnlyAccess”.
