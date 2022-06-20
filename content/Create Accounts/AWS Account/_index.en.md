@@ -5,9 +5,7 @@ weight = 22
 +++
 # Prepare Your Lab Account
 
-If you are at an AWS hosted event (such as re:Invent, Immersion Day, on-site Workshop or other event hosted by AWS employees), you will be provided with a temporary AWS account for the workshop.
-
-If you are running this workshop by yourself, your account must have the ability to create new IAM roles and scope other IAM permissions.
+For this Workshop you will need Administrator Access to an AWS Account that is not part of an AWS Organization and that is not yet configured for AWS SSO.
 
 - If you don’t already have an AWS account with Administrator access: create one now
 {{% button href="https://aws.amazon.com/getting-started/" %}}Click me to open an AWS Account {{% /button %}}
