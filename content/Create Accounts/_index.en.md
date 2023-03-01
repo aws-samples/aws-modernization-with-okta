@@ -13,5 +13,5 @@ To perform this workshop, you’ll need access to the following:
 
 {{% notice warning %}}
 For resources provisioned in personal/work AWS accounts - charges may apply. It is highly encouraged to delete the resources once the workshop is completed.
-Follow the steps outlined in Chapter "Cleanup" from the menu on left to delete all resources provisioned during this workshop.
+Follow the steps outlined in Chapter **Cleanup** from the menu on the left to delete all resources provisioned during this workshop.
 {{% /notice %}}

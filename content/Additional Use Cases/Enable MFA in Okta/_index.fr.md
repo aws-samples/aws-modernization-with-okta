@@ -3,7 +3,7 @@ title = "Activer MFA dans Okta"
 chapter = false
 weight = 81
 +++
-Dans ce cas d'utilisation, vous activerez MFA avec Okta Verify pour chaque connexion à Okta et donc à AWS SSO.
+Dans ce cas d'utilisation, vous activerez MFA avec Okta Verify pour chaque connexion à Okta et donc à AWS IAM Identity Center.
 
 ### Pourquoi introduire l'AMF ?
 L'identité est le nouveau périmètre et les organisations introduisent la MFA pour mieux protéger l'accès aux applications et aux services.
@@ -24,17 +24,17 @@ Okta fournit une {{% button href="https://www.okta.com/products/adaptive-multi-f
 
 ### Étapes de configuration
 
-Ouvrez la console d'administration Okta et allez dans "Security" -> "Multifactor".
-Sélectionnez "Okta Verify", réglez-le sur "Active" et définissez au moins "Enable Push Notification". Enregistrez les paramètres.
+Ouvrez la console d'administration Okta et allez dans **Security** -> **Multifactor**.
+Sélectionnez **Okta Verify**, réglez-le sur **Active** et définissez au moins **Enable Push Notification**. Enregistrez les paramètres.
 ![Enable Multifactor Okta Verify](/images/700_enable_multifactor_okta_verify.png)
 
-L’inscription MFA autorisée peut être configurée dans l’onglet “Factor Enrollment”. La configuration par défaut fournie peut être utilisée pour cet atelier.
+L’inscription MFA autorisée peut être configurée dans l’onglet **Factor Enrollment**. La configuration par défaut fournie peut être utilisée pour cet atelier.
 
-L'étape suivante consiste à appliquer l'authentification MFA lors de la connexion à Okta. Allez dans “Security” -> “Authentication” et passez à l’onglet “Sign On”. Une politique par défaut est déjà fournie pour tous les utilisateurs. Cliquez sur “Add Rule”.
+L'étape suivante consiste à appliquer l'authentification MFA lors de la connexion à Okta. Allez dans **Security** -> **Authentication** et passez à l’onglet **Sign On**. Une politique par défaut est déjà fournie pour tous les utilisateurs. Cliquez sur **Add Rule**.
 
 ![Add SSO Rule](/images/701_add_sso_rule.png)
 
-Entrez le nom de la règle "MFA pour tout le monde", sélectionnez “Prompt for Factor”, sélectionnez “Every Time” et cliquez sur “Create Rule”.
+Entrez le nom de la règle **MFA pour tout le monde**, sélectionnez **Prompt for Factor**, sélectionnez **Every Time** et cliquez sur **Create Rule**.
 
 ![Add MFA Rule](/images/702_add_mfa_rule.png)
 

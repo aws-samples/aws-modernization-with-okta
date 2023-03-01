@@ -3,34 +3,34 @@ title = "Créer un utilisateur dans Okta"
 chapter = false
 weight = 83
 +++
-Dans ce cas d'utilisation, nous allons créer un nouvel utilisateur dans Okta et fournir un accès à AWS SSO.
+Dans ce cas d'utilisation, nous allons créer un nouvel utilisateur dans Okta et fournir un accès à AWS IAM Identity Center.
 
 ### Pourquoi gérer les utilisateurs directement dans Okta ?
 La gestion des utilisateurs directement dans Okta résout le problème qui se pose lorsque les organisations souhaitent fournir un accès aux ressources AWS aux partenaires, mais ne souhaitent pas les créer dans AD.
 
 ### Étapes de configuration
-Pour créer un nouvel utilisateur dans Okta, allez dans “Directory” -> “People” et cliquez sur “Add person”.
+Pour créer un nouvel utilisateur dans Okta, allez dans **Directory** -> **People** et cliquez sur **Add person**.
 ![Add People](/images/730_add_people.png)
 
-Entrez les informations sur l'utilisateur. Pour fournir l'accès à AWS, commencez à saisir le nom du groupe “AWS ViewOnlyAccess” et sélectionnez-le. Sélectionnez “Send user activation email now”, cela activera l'utilisateur dans Okta et un e-mail pour définir le mot de passe initial est envoyé à l'utilisateur. Cliquez sur "Save".
+Entrez les informations sur l'utilisateur. Pour fournir l'accès à AWS, commencez à saisir le nom du groupe **AWS ViewOnlyAccess** et sélectionnez-le. Sélectionnez **Send user activation email now**, cela activera l'utilisateur dans Okta et un e-mail pour définir le mot de passe initial est envoyé à l'utilisateur. Cliquez sur **Save**.
 
 ![Send User Actication Email](/images/731_send_user_activation_email.png)
 
 {{% notice info %}}
-Si vous ne sélectionnez pas “Send user activation email now”, Okta crée l'utilisateur dans un état Staged et vous devez l'activer manuellement.
+Si vous ne sélectionnez pas **Send user activation email now**, Okta crée l'utilisateur dans un état Staged et vous devez l'activer manuellement.
 Des attributs utilisateur supplémentaires peuvent être définis dans l'onglet Profil de l'utilisateur.
 {{% /notice %}}
 
 Cliquez sur le lien dans l'e-mail d'activation et définissez le mot de passe.
 
-Déconnectez-vous avec votre utilisateur actuel ou ouvrez un nouveau navigateur incognito. Connectez-vous avec le nouvel utilisateur comme décrit dans le chapitre "Test" depuis Okta ou AWS. Vous serez invité à paramétrer votre MFA et comme nous n'avons attribué qu'un seul groupe, vous n'aurez accès qu'à "ViewOnlyAccess".
+Déconnectez-vous avec votre utilisateur actuel ou ouvrez un nouveau navigateur incognito. Connectez-vous avec le nouvel utilisateur comme décrit dans le chapitre **Test** depuis Okta ou AWS. Vous serez invité à paramétrer votre MFA et comme nous n'avons attribué qu'un seul groupe, vous n'aurez accès qu'à **ViewOnlyAccess**.
 
 ![AWS Dashboard new Okta user](/images/732_aws_dashboard.png)
 
-Pour désactiver l'utilisateur et supprimer l'accès à AWS SSO, accédez à “Directory” -> “People” et cliquez sur le nom d'utilisateur.
+Pour désactiver l'utilisateur et supprimer l'accès à AWS IAM Identity Center, accédez à **Directory** -> **People** et cliquez sur le nom d'utilisateur.
 ![Select User](/images/733_select_user.png)
 
-Cliquez sur “More Actions” et “Deactivate”.
+Cliquez sur **More Actions** et **Deactivate**.
 ![Deactivate User](/images/734_deactivate_user.png)
 
 {{% notice info %}}
@@ -38,5 +38,5 @@ Okta désactive les utilisateurs en premier lieu, car la suppression d'un utilis
 {{% /notice %}}
 
 {{% notice info %}}
-Si vous souhaitez supprimer l'utilisateur, cliquez sur le bouton "Delete" dans le profil utilisateur qui s'affiche après la désactivation.
+Si vous souhaitez supprimer l'utilisateur, cliquez sur le bouton **Delete** dans le profil utilisateur qui s'affiche après la désactivation.
 {{% /notice %}}

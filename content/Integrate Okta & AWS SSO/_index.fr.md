@@ -1,13 +1,13 @@
 +++
-title = "Intégrer Okta et AWS SSO"
+title = "Intégrer Okta et AWS IAM Identity Center"
 chapter = true
 weight = 40
 
 +++
-L'intégration d'Okta et d'AWS SSO est assez simple. Vous créez dans Okta l'application AWS SSO et configurez l'authentification unique et le provisionnement.
+L'intégration d'Okta et d'AWS IAM Identity Center est assez simple. Vous créez dans Okta l'application AWS IAM Identity Center et configurez l'authentification unique et le provisionnement.
 
 {{% notice tip %}}
-Okta fournit plus de 7000 intégrations préconstruites avec le [Okta Integration Network (OIN)](https://www.okta.com/integrations/) et l'intégration AWS SSO n'est que l'une d'entre elles.
+Okta fournit plus de 7000 intégrations préconstruites avec le [Okta Integration Network (OIN)](https://www.okta.com/integrations/) et l'intégration AWS IAM Identity Center n'est que l'une d'entre elles.
 {{% /notice %}}
 
 {{% notice info %}}

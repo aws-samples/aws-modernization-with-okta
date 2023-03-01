@@ -4,10 +4,11 @@ chapter = false
 weight = 72
 +++
 
-Go to the SSO Dashboard in the AWS console and click on the “User portal URL”
+1. Go to the **AWS Management console** and open the **IAM Identity Center**.
+![AWS IAM Identity Center User portal](/images/go_to_aws_sso.png)
 
-![AWS SSO User portal](/images/user_portal_sso.jpg)
+2. Go to the **Dashboard** in the AWS console and click on the **AWS access portal URL**.
+![AWS IAM Identity Center User portal](/images/user_portal_sso.jpg)
 
-Now you need to login with your Okta-Username and should see the Login-Options with the right policies for the AWS account that you created in this workshop.
-
-![AWS SSO Dashboard](/images/aws_sso_dashboard.png)
+3. Now you need to login with your Okta-Username. You should see **one AWS Account** and **two permission Sets**.
+![AWS IAM Identity Center Dashboard](/images/aws_sso_dashboard.png)

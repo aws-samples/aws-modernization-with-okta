@@ -3,13 +3,13 @@ title = "Accès à l'AWS CLI"
 chapter = false
 weight = 88
 +++
-Dans ce cas d'utilisation, vous vous connecterez à l'AWS CLI avec Okta via AWS SSO.
+Dans ce cas d'utilisation, vous vous connecterez à l'AWS CLI avec Okta via AWS IAM Identity Center.
 
-AWS CLI v2 prend en charge l'intégration directe avec AWS Single Sign-On (SSO). Vous pouvez désormais créer des profils CLI liés aux comptes et rôles SSO. L'interface de ligne de commande récupère automatiquement les informations d'identification AWS à partir de l'authentification unique et les actualise en votre nom. De nouvelles commandes aident à gérer les profils CLI SSO. Vous n'avez plus besoin de copier et coller les informations d'identification AWS temporaires à partir de la console AWS SSO.
+AWS CLI v2 prend en charge l'intégration directe avec AWS IAM Identity Center. Vous pouvez désormais créer des profils CLI liés aux comptes et rôles SSO. L'interface de ligne de commande récupère automatiquement les informations d'identification AWS à partir de l'authentification unique et les actualise en votre nom. De nouvelles commandes aident à gérer les profils CLI SSO. Vous n'avez plus besoin de copier et coller les informations d'identification AWS temporaires à partir de la console AWS IAM Identity Center.
 
 Exécutez dans un terminal ***aws configure sso*** et suivez les instructions.
 - **SSO start URL** : connectez-vous au tableau de bord AWS et copiez l'URL.
-- **SSO Region** : connectez-vous à votre compte AWS et copiez la région d'AWS SSO.
+- **SSO Region** : connectez-vous à votre compte AWS et copiez la région d'AWS IAM Identity Center.
 
 {{< highlight ssh >}}
 $ aws configure sso
@@ -33,7 +33,7 @@ The only AWS account available to you is: 00xxxxxxxx56
 Using the account ID  00xxxxxxxx56
 {{< / highlight >}}
 
-Vous serez invité à vous connecter à votre AWS SSO via Okta. Si vous avez activé MFA, vous devez également fournir un 2e facteur. De plus, vous serez également invité par AWS SSO à autoriser l'accès.
+Vous serez invité à vous connecter à votre AWS IAM Identity Center via Okta. Si vous avez activé MFA, vous devez également fournir un 2e facteur. De plus, vous serez également invité par AWS IAM Identity Center à autoriser l'accès.
 
 ![AWS CLI Authorize Request](/images/aws_cli_authorize_request.png)
 
