@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "Okta AWS SSO integration Workshop"
+title = "Okta AWS IAM Identity Center integration Workshop"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "false"
@@ -17,7 +17,7 @@ enableEmoji = true
   # Author of the site, will be used in meta information
   author = "James Bland"
   # Description of the site, will be used in meta information
-  description = "Workshop to learn how to integrate Okta with AWS SSO ."
+  description = "Workshop to learn how to integrate Okta with AWS IAM Identity Center ."
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
   # Disable search function. It will hide search bar
@@ -81,12 +81,12 @@ weight = 23
 
 [Languages]
 [Languages.en]
-title = "OKTA AWS SSO INTEGRATION WORKSHOP"
+title = "OKTA AWS IAM Identity Center INTEGRATION WORKSHOP"
 weight = 1
 languageName = "English"
 
 [Languages.fr]
-title = "Atelier d'intégration Okta avec AWS SSO"
+title = "Atelier d'intégration Okta avec AWS IAM Identity Center"
 weight = 2
 languageName = "Français"
 contentDir = "content/fr"

@@ -3,13 +3,13 @@ title = "What is Okta?"
 chapter = false
 weight = 11
 +++
-Okta is the trusted platform to secure every identity.
+Okta provides easy, secure access for your workforce so you can focus on other strategic priorities—like reducing costs, and doing more for your customers.
 
 It's an enterprise-grade, identity management service, built in the cloud for the cloud, but also compatible with many on-premises applications. With Okta, IT can manage any employee's access to any application or device.
 
-The Okta solution was born of the unique challenges of how technology has grown and shifted in the growing diversity of devices, identity issues, security, employee mobility, vender partnership, and the exponential growth of unique application options.
+The Okta solution was born of the unique challenges of how technology has grown and shifted in the growing diversity of devices, identity issues, security, employee mobility, vendor partnership, and the exponential growth of unique application options.
 
-Okta features include Provisioning, Single Sign-On (SSO), Active Directory (AD) and LDAP integration, the centralized deprovisioning of users, multifactor authentication (MFA) and flexible policies for organization security and control.
+Okta features include Provisioning, Single Sign-On (SSO), Active Directory (AD) and LDAP integration, the centralized de-provisioning of users, multifactor authentication (MFA) and flexible policies for organization security and control.
 
 
 

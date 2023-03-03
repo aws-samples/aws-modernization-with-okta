@@ -3,24 +3,17 @@ title = "Create Permission Sets"
 chapter = false
 weight = 61
 +++
-Go to AWS SSO.
 
+1. Go to AWS Management Console and open the **IAM Identity Center**.
 ![Create Permission Set](/images/go_to_aws_sso.png)
 
-Select "Permission sets" and click on "Create permission set"
-![Create Permission Set](/images/create_permission_set.png)
+2. Go to **Permission sets** and click on **Create permission set**.
+![Create Permission Set](/images/300_create_permission_set.png)
 
-The Wizard provides multiple options. For this Workshop, we use an existing job function policy. There are multiple "common" job functions already configured, but you can always create a custom permission set with the AWS managed policies or even with your own policy document.
+3. You can choose between predefined or custom permission sets. For this Workshop, we keep it simple. Select **Predefined permission set** and **PowerUserAccess**. Click on **Next**.
+![Create Permission Type](/images/305_create_permission_type.png)
 
-Select "Use an existing job function policy", select "ViewOnlyAccess" and click on "Next.
-
-![Create Permission Type](/images/create_permission_type.png)
-
-Click "Next" and on the last page on "Create".
-
-![Create Permission Review](/images/create_permission_review.png)
-
-Repeat the same steps for "AWS PowerUserAccess" with the corresponding job function policies. 
-
-Validate your configuration: You will have two Permission Sets that are assigned to the corresponding groups from Okta.
-![Validate Permission Sets](/images/validate_permission_sets.png)
+4. Click **Next** and on the last page on **Create**.
+5. Repeat the same steps for **AWS ViewOnlyAccess** with the corresponding predefined permission set.
+6. Validate your configuration: You will have two Permission Sets that are assigned to the corresponding groups from Okta.
+![Validate Permission Sets](/images/310_validate_permission_sets.png)

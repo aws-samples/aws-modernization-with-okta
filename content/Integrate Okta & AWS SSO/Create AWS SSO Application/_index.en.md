@@ -1,17 +1,17 @@
 +++
-title = "Create AWS SSO Application"
+title = "Create AWS IAM Identity Center Application"
 chapter = false
 weight = 41
 +++
-Go to "Applications" -> "Application" and click on “Browse App Catalog”
 
+1. Go to **Applications** -> **Application** and click on **Browse App Catalog**.
 ![Add Application](/images/90_add_application.png)
 
-Enter “AWS Single Sign-on” in the search box and click on “AWS Single Sign-on”
-
+2. Enter **AWS IAM Identity Center** in the search box and click on **AWS IAM Identity Center**.
 ![Add Application Selection](/images/100_add_application_selection.png)
 
-Click on the “Add Integration” button.
-The Application wizards open and click “Done”.
+3. Click on the **Add Integration** button.
+![Click Add Integration](/images/110_aws_app_add_integration.png)
 
+4. The Application wizards open and click **Done**.
 ![Application Wizard](/images/120_application_wizard.png)

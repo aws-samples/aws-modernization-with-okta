@@ -20,21 +20,21 @@ The next step is to provide secure and user-friendly access is adaptive MFA. Okt
 
 ![Adaptive MFA](/images/7_adaptive_mfa.png)
 
-Why Okta and AWS SSO?
+Why Okta and AWS IAM Identity Center?
 
-- Setup SSO and Provisioning to AWS SSO with a pre-built Okta Integration Network App
+- Setup SSO and Provisioning to AWS IAM Identity Center with a pre-built Okta Integration Network App
 - Automate joiner/mover/leaver scenarios with the advanced Lifecycle Management tools from Okta
 - Provide secure access to AWS CLI by using Okta as your Identity Provider
 - Add adaptive MFA based on context and risk or go password-less with Okta FastPass
 
 ![High-Level Architecture](/images/2_High_Level_Architecture.png)
 
-Okta together with AWS SSO provides flexible ways to control:
+Okta together with AWS IAM Identity Center provides flexible ways to control:
 
 - Fine-grained multi-account access management
-- Attribute-based access control via Okta assertions or AWS SSO selection of synchronized Okta-user attributes
-- Assign permission sets in AWS SSO or assign them as part of Okta user lifecycle management
+- Attribute-based access control via Okta assertions or AWS IAM Identity Center selection of synchronized Okta-user attributes
+- Assign permission sets in AWS IAM Identity Center or assign them as part of Okta user lifecycle management
 
 ![High-Level Architecture2](/images/3_High_Level_Architecture2.png)
 
-The AWS SSO integration is just one of many. {{% button href="https://www.okta.com/partners/aws" %}}Click here for all Okta Integrations with AWS.{{% /button %}}
+The AWS IAM Identity Center integration is just one of many. {{% button href="https://www.okta.com/partners/aws" %}}Click here for all Okta Integrations with AWS.{{% /button %}}

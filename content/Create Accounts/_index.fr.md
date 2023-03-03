@@ -13,5 +13,5 @@ Pour réaliser cet atelier, vous aurez besoin des éléments suivants :
 
 {{% notice warning %}}
 Pour les ressources provisionnées dans des comptes AWS personnels ou professionnels, des frais peuvent s'appliquer. Il est fortement encouragé de supprimer les ressources une fois l'atelier terminé.
-Suivez les étapes décrites dans le chapitre “Nettoyage” du menu de gauche pour supprimer toutes les ressources provisionnées pendant cet atelier.
+Suivez les étapes décrites dans le chapitre **Nettoyage** du menu de gauche pour supprimer toutes les ressources provisionnées pendant cet atelier.
 {{% /notice %}}
