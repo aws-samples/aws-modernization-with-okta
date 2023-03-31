@@ -1,5 +1,5 @@
 +++
-title = "Value of adding Okta"
+title = "Why Okta?"
 chapter = false
 weight = 12
 +++
