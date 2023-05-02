@@ -3,21 +3,18 @@ title = "Attribuer des permissions"
 chapter = false
 weight = 62
 +++
-Sélectionnez **AWS Account**, sélectionnez un compte AWS et cliquez sur **Assign users**.
+1. Sélectionnez **AWS Account**, sélectionnez un **AWS account** et cliquez sur **Assign users**.
+![Select Accounts](/images/350_select_accounts.png)
 
-![Select Accounts](/images/select_accounts.png)
+2. Passez à l'onglet **Groups**, sélectionnez **AWS PowerUserAccess** et cliquez sur **Next**. Les deux groupes affichés sont ceux que nous avons provisionnés depuis Okta à AWS IAM Identity Center.
+![Assign group select group](/images/355_assign_group_select_group.png)
 
-Passez à l'onglet **Groups**, sélectionnez **AWS ViewOnlyAccess** et cliquez sur **Next**. Les deux groupes affichés sont ceux que nous avons provisionnés depuis Okta à AWS IAM Identity Center.
+3. Cliquez **Next**
 
-![Assign group select group](/images/assign_group_select_group.png)
+4. Validez votre configuration : vous disposerez du groupe **AWS PowerUserAccess** à lequel la permission **PowerUserAccess** sera attribuée.
+![Complete assign group](/images/365_complete_assigned_group.png)
 
-Sélectionnez la permission **ViewOnlyAccess** que nous avons créée précédemment et cliquez sur **Done**.
-![Assign group select permission set](/images/assign_group_select_permission_set.png)
+5. Répétez les mêmes étapes pour **AWS ViewOnlyAccess** avec le groupe et les permissions correspondantes.
 
-Attendez un instant et cliquez sur **Proceed to AWS accounts**.
-![Complete assign group](/images/complete_assigned_group.png)
-
-Répétez les mêmes étapes pour **AWS PowerUserAccess** avec le groupe et les permissions correspondantes.
-
-Validez votre configuration : vous disposerez de deux permissions qui sont attribuées au compte AWS via des groupes.
-![Validate AWS Account Configuration](/images/validate_aws_account_configuration.png)
+6. Validez votre configuration : vous disposerez de deux permissions qui sont attribuées au compte AWS via des groupes.
+![Validate AWS Account Configuration](/images/370_validate_aws_account_configuration.png)
