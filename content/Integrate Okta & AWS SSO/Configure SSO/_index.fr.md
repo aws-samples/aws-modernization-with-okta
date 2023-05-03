@@ -3,9 +3,9 @@ title = "Configurer l'authentification unique (SSO)"
 chapter = false
 weight = 42
 +++
-Sélectionnez l'onglet « Sign On » puis sur « View Setup Instructions ».
+Sélectionnez l'onglet **Sign On** puis sur **View SAML Setup Instructions**.
 Suivez les instructions. Les valeurs dans les instructions sont générées spécifiquement pour votre tenant Okta.
-Pour la partie des métadonnées, vous pouvez l'ouvrir sur un nouvel onglet de navigateur et télécharger le fichier metadata.xml.
+Pour la partie des métadonnées, vous pouvez l'ouvrir sur un nouvel onglet de navigateur et télécharger le fichier **metadata.xml**.
 
 ![Sign On Configuration](/images/180_sign_on_configuration.jpg)
 

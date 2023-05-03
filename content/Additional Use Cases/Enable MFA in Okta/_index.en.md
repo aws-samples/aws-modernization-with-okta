@@ -37,9 +37,8 @@ If you have a MacBook with TouchID, WindowsHello or a FIDO-compatible key like a
 3. Select in the configuration dialog of Okta Verify
 
 - **Push notification (Android and iOS only)**: This will allow using a push notification next to an OTP with the Okta Verify App on iOS and Android.
-- **Okta FastPass (All platforms)**: This will allow passwordless login with the Okta Verify App on Mac, Windows, iOS and Android.
-- **Show the "Sign in with OktaFastpass" button**: This will allow passwordless login with Okta Verify without entering a username or password.
-
+- **Okta FastPass (All platforms)**: This will allow passwordless login with the free *Okta Verify* App available on Mac, Windows, iOS and Android.
+- **Show the "Sign in with OktaFastpass" button**: This will allow passwordless login with *Okta Verify* without entering a username or password.
 ![Setup Okta Verify](/images/742_okta_verify_setup.png)
 
 4. Who and when the MFA enrollment is allowed can be configured in the tab **Factor Enrollment**. A default configuration is provided and fine for the workshop.
@@ -48,7 +47,7 @@ If you have a MacBook with TouchID, WindowsHello or a FIDO-compatible key like a
 
 The next step is to enforce MFA for the AWS IAM Identity Center Application.
 
-1. Go to **Applications** -> **Application** and select the **AWS IAM Identity Center** Application
+1. Go to **Applications** -> **Applications** and select the **AWS IAM Identity Center** Application
 2. Switch to the tab **Sign On**, scroll down and click on **View policy details**.
 ![AWS IAM Identity Center App Sign-On Policy](/images/743_aws_sso_sign_on_policy.png)
 
@@ -67,7 +66,7 @@ This policy is shared across multiple applications. For simplicity, we will enfo
 7. To enforce MFA on every login, select **Every sign-in attempt** and click on **Save**.
 ![App Sign-On Policy Reauthentication](/images/747_app_sign_on_rule_reauthentication.png)
 
-8. That's it. Okta will prompt you on the next login to enroll your MFA (Okta Verify) and on the following logins, you must use it.
+8. That's it. Okta will prompt you on the next login to enroll your MFA (*Okta Verify*) and on the following logins, you must use it.
 
 ### Test
 1. Go to the End User Dashboard.
@@ -76,5 +75,5 @@ This policy is shared across multiple applications. For simplicity, we will enfo
 2. Click on the **AWS IAM Identity Center** Application.
 ![Start AWS IAM Identity Center App](/images/290_start_aws_sso_app.png)
 
-3. The first time you sign in, you will be prompted to enroll in your MFA (Okta Verify).
+3. The first time you sign in, you will be prompted to enroll in your MFA (*Okta Verify*).
 ![Setup Okta Verify](/images/703_setup_okta_verify.png)

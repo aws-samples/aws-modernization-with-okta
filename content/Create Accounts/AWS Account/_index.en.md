@@ -12,4 +12,6 @@ For this Workshop you will need Administrator Access to an AWS Account that is n
 - You can also find additional Guidance on how to Create an AWS Account 
 {{% button href="https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/" %}}Click me for guidance {{% /button %}}
 
+{{% notice tip %}}
 - Once you have an AWS account, ensure you create an IAM user with the AdministratorAccess managed policy attached to it. You will use this account for the workshop. As a best practice, NEVER use the AWS root account when you are able to use an IAM user instead! 
+{{% /notice %}}

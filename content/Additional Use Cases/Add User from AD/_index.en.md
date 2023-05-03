@@ -25,4 +25,4 @@ The AD Domain Controller(s) are usually deployed behind a firewall. Okta is usin
 - Okta supports Just-In-Time (JIT) provisioning, such that not all users must be imported in the first place and the latest data is imported on login.
 - Okta supports Agentless Desktop SSO. If users come from a domain-joined device, then they will be automatically signed in to Okta without entering their username and password. As the name implies, no additional agents are required on the device of the user.
 
-The next steps of the AD Integration are out of scope for this workshop. It's intuitive and you can do it on your own with some common sense. For detailed instructions, please see the [official documentation](https://help.okta.com/en/prod/Content/Topics/Directory/ad-agent-workflow.htm).
+The next steps of the AD Integration are out of scope for this workshop. It's intuitive and you can do it on your own with some common sense. For detailed instructions, please see the [official documentation](https://help.okta.com/oie/en-us/Content/Topics/Directory/ad-agent-workflow.htm).

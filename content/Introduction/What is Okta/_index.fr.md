@@ -18,9 +18,9 @@ Toutes ces fonctions sont réunies dans un réseau d'applications pré-intégré
 Afin de permettre aux clients et aux partenaires de répondre à tous les cas d'utilisation de l'identité, nous avons construit un ensemble de composants modulaires, appelés "Platform Services", qui peuvent être combinés pour créer plus rapidement de nouvelles fonctionnalités et des expériences sur mesure. Ces Platform Services sont disponibles dans les produits packagés, les API et les SDK d'Okta.
 
 Avantages des Platform Services Okta
-- Construisez plus rapidement : mettez en place de nouvelles fonctionnalités pour couvrir plus de cas d'utilisation plus rapidement en combinant des composants préfabriqués.
-- Personnalisez plus facilement : adaptez Okta à votre entreprise en utilisant des options no-code, low-code ou pro-code.
-- Étendez vos services à l'ensemble de votre parc technologique : connectez-vous facilement à des applications et systèmes tiers pour améliorer la sécurité et l'expérience utilisateur.
+- **Construisez plus rapidement :** mettez en place de nouvelles fonctionnalités pour couvrir plus de cas d'utilisation plus rapidement en combinant des composants préfabriqués.
+- **Personnalisez plus facilement :** adaptez Okta à votre entreprise en utilisant des options no-code, low-code ou pro-code.
+- **Étendez vos services à l'ensemble de votre parc technologique :** connectez-vous facilement à des applications et systèmes tiers pour améliorer la sécurité et l'expérience utilisateur.
 
 ![High Level Architecture](/images/4_Okta_Platform.png)
 
