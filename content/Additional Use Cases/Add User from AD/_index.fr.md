@@ -5,12 +5,10 @@ weight = 84
 +++
 Dans ce cas d'utilisation, nous verrons comment utiliser AD ou LDAP comme source d'utilisateurs. Nous ne ferons pas l'intégration complète, mais nous examinerons les possibilités et les cas d'utilisation courants.
 
-Allez dans **Directory** -> **Directory Integrations** et cliquez sur **Add Active Directory**.
-
+1. Allez dans **Directory** -> **Directory Integrations** et cliquez sur **Add Active Directory**.
 ![Add AD](/images/710_add_active_directory.png)
 
-La page suivante montrera l'architecture de haut niveau de l'intégration.
-
+2. La page suivante montrera l'architecture de haut niveau de l'intégration.
 ![Integration](/images/713_integration_short.png)
 
 Le ou les contrôleurs de domaine AD sont généralement déployés derrière un pare-feu. Okta utilise un agent léger pour l'intégration qui offre de nombreux avantages :
@@ -26,4 +24,4 @@ Le ou les contrôleurs de domaine AD sont généralement déployés derrière un
 - Okta prend en charge le provisionnement Just-In-Time (JIT), de sorte que tous les utilisateurs n'ont pas besoin d'être importés en premier lieu et que les dernières données sont importées lors de la connexion.
 - Okta prend en charge l'authentification unique de bureau sans agent. Si les utilisateurs proviennent d'un appareil appartenant à un domaine, ils seront automatiquement connectés à Okta sans saisir leur nom d'utilisateur et leur mot de passe. Comme son nom l'indique, aucun agent supplémentaire n'est requis sur l'appareil de l'utilisateur.
 
-Les prochaines étapes de l'intégration AD dépassent le cadre de cet atelier. Pour les instructions plus détaillées, vous pouvez consulter la documentation officielle [ici](https://help.okta.com/en/prod/Content/Topics/Directory/ad-agent-workflow.htm).
+Les prochaines étapes de l'intégration AD dépassent le cadre de cet atelier. Pour les instructions plus détaillées, vous pouvez consulter la [documentation officielle](https://help.okta.com/oie/en-us/Content/Topics/Directory/ad-agent-workflow.htm).

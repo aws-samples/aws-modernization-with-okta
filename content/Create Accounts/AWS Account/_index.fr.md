@@ -14,4 +14,6 @@ Si vous suivez cet atelier vous-même, votre compte doit avoir la possibilité d
 - Vous pouvez également trouver des conseils supplémentaires sur la façon de créer un compte AWS
 {{% button href="https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/" %}}Cliquez ici pour obtenir des conseils {{% /button %}}
 
+{{% notice tip %}}
 - Une fois que vous avez un compte AWS, assurez-vous de créer un utilisateur IAM en lui rattachant la politique AdministratorAccess. Vous utiliserez ce compte pour l'atelier. En tant que bonne pratique, n'utilisez JAMAIS le compte racine AWS lorsque vous pouvez utiliser un utilisateur IAM à la place !
+{{% /notice %}}

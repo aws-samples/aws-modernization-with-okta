@@ -5,22 +5,20 @@ weight = 32
 +++
 L'étape suivante consiste à vous ajouter aux groupes.
 
-Cliquez sur le nom du groupe « AWS PowerUserAccess ».
+1. Cliquez sur le nom du groupe **AWS PowerUserAccess**.
 
 ![Click on Group Name](/images/130_click_on_group_name.png)
 
-Cliquez sur « Manage People »
+2. Cliquez sur **Assign People**
 
 ![Manage People](/images/140_manage_people.png)
 
-Sélectionnez votre compte et cliquez sur « Save ».
+3. Cliquez sur **+** de vous-même, puis sur **Groups** pour revenir à la vue d'ensemble des groupes.
 
 ![Add Members](/images/150_add_members.png)
 
-Cliquez sur « Back to Groups ».
+4. Répétez les mêmes étapes pour l'assignation de l'utilisateur au groupe **AWS ViewOnlyAccess**. 
 
-![Back to groups](/images/160_back_to_groups.png)
-
-Répétez les mêmes étapes pour l'assignation de l'utilisateur au groupe « AWS ViewOnlyAccess ». Après cela, vous pouvez vérifier votre configuration : Nous avons créé deux groupes Okta, ayant chacun un membre.
+5. Après cela, vous pouvez vérifier votre configuration : Nous avons créé deux groupes Okta, ayant chacun un membre.
 
 ![Group Configuration Overview](/images/170_group_configuration_overview.png)

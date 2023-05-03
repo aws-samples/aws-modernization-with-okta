@@ -37,4 +37,6 @@ Okta together with AWS IAM Identity Center provides flexible ways to control:
 
 ![High-Level Architecture2](/images/3_High_Level_Architecture2.png)
 
+{{% notice tip %}}
 The AWS IAM Identity Center integration is just one of many. {{% button href="https://www.okta.com/partners/aws" %}}Click here for all Okta Integrations with AWS.{{% /button %}}
+{{% /notice %}}

@@ -4,7 +4,7 @@ chapter = false
 weight = 41
 +++
 
-1. Go to **Applications** -> **Application** and click on **Browse App Catalog**.
+1. Go to **Applications** -> **Applications** and click on **Browse App Catalog**.
 ![Add Application](/images/90_add_application.png)
 
 2. Enter **AWS IAM Identity Center** in the search box and click on **AWS IAM Identity Center**.

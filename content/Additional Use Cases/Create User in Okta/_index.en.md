@@ -28,7 +28,7 @@ Additional user attributes can be set in the Profile Tab of the user.
 1. To disable the user and remove access to AWS IAM Identity Center, go to **Directory** -> **People** and click on the **user name**.
 ![Select User](/images/733_select_user.png)
 
-2. Click on **More Action** and **Deactivate**. Confirm the deactivation in the dialog.
+2. Click on **More Actions** and **Deactivate**. Confirm the deactivation in the dialog.
 ![Deactivate User](/images/734_deactivate_user.png)
 
 {{% notice info %}}

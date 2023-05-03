@@ -8,7 +8,7 @@ pre = ""
 # OBJECTIFS D'APPRENTISSAGE
 Aujourd'hui, nous allons apprendre les sujets suivants :
 
-- Comment intégrer Okta dans AWS IAM Identity Center
+- Comment intégrer Okta dans AWS IAM Identity Center (successeur de AWS SSO)
 - Comment déployer des groupes et des utilisateurs d'Okta sur AWS
 - Comment attribuer des autorisations dans AWS aux utilisateurs déployés
 

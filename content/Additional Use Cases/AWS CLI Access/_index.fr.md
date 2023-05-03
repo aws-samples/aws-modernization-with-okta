@@ -7,6 +7,11 @@ Dans ce cas d'utilisation, vous vous connecterez à l'AWS CLI avec Okta via AWS 
 
 AWS CLI v2 prend en charge l'intégration directe avec AWS IAM Identity Center. Vous pouvez désormais créer des profils CLI liés aux comptes et rôles SSO. L'interface de ligne de commande récupère automatiquement les informations d'identification AWS à partir de l'authentification unique et les actualise en votre nom. De nouvelles commandes aident à gérer les profils CLI SSO. Vous n'avez plus besoin de copier et coller les informations d'identification AWS temporaires à partir de la console AWS IAM Identity Center.
 
+### Option A: identification à partir du tableau de bord AWS
+Ouvrez le tableau de bord du AWS IAM Identity Center et cliquez sur **Command line or programmatic access**. Plusieurs options d'accès à la ligne de commande s'offrent alors à vous.
+![AWS CLI Authorize Request](/images/760_aws_dashboard_cli.png)
+
+### Option B: Commandes de configuration
 Exécutez dans un terminal ***aws configure sso*** et suivez les instructions.
 - **SSO start URL** : connectez-vous au tableau de bord AWS et copiez l'URL.
 - **SSO Region** : connectez-vous à votre compte AWS et copiez la région d'AWS IAM Identity Center.
@@ -50,14 +55,16 @@ CLI default output format [None]: json
 CLI profile name [PowerUserAccess-00xxxxxxxx56]:
 {{< / highlight >}}
 
-Pour tester le profil, exécutez ***aws sts get-caller-identity --profile profilenameABC***
+## Test
+
+1. Pour tester le profil, exécutez ***aws sts get-caller-identity --profile profilenameABC***
 
 Par exemple, dans notre cas, nous avons utilisé la commande :
 {{< highlight ssh >}}
 $ aws sts get-caller-identity --profile PowerUserAccess-00xxxxxxxx56
 {{< / highlight >}}
 
-Le résultat sera
+2. Le résultat sera
 {{< highlight ssh >}}
 $ aws sts get-caller-identity --profile PowerUserAccess-00xxxxxxxx56
 {
