@@ -2,7 +2,6 @@
 title = "Sondage"
 chapter = true
 weight = 100
-
 +++
 
 Merci d'avoir participé à notre événement. Nous espérons que vous avez eu autant de plaisir à participer que nous en avons eu à l'organiser.

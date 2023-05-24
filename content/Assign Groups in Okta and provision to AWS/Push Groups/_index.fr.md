@@ -2,6 +2,7 @@
 title = "Déployer des groupes"
 chapter = false
 weight = 52
+pre = "<b>4.2 </b>"
 +++
 AWS IAM Identity Center ne connaît pas encore nos groupes. Nous utiliserons les groupes pour mapper les permissions (**Permission Sets**) dans AWS IAM Identity Center. Déployons les groupes et leurs adhésions vers AWS IAM Identity Center.
 

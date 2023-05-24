@@ -2,6 +2,7 @@
 title = "Push Groups"
 chapter = false
 weight = 52
+pre = "<b>4.2 </b>"
 +++
 AWS IAM Identity Center doesn’t know our groups yet. We will use the groups to map the **Permission Sets** in the AWS IAM Identity Center. Let’s push the groups and their memberships to AWS IAM Identity Center.
 

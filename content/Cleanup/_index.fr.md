@@ -2,6 +2,7 @@
 title = "Nettoyage"
 chapter = true
 weight = 90
+pre = "<b>8. </b>"
 +++
 Si vous avez réalisé cet atelier à des fins d'apprentissage et non pour la production, vous devez toujours supprimer les ressources créées une fois toutes les étapes terminées.
 Dans le compte AWS, accédez aux paramètres sous le service SSO et cliquez sur **Supprimer la configuration AWS IAM Identity Center**. Vous devez confirmer que vous comprenez que tout ce qui concerne l'authentification unique (y compris les utilisateurs et les groupes poussés) sera supprimé en sélectionnant les cases et en écrivant **SUPPRIMER** (**DELETE** en anglais) dans la zone de texte.

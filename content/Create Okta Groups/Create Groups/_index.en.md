@@ -2,6 +2,7 @@
 title = "Create Groups"
 chapter = false
 weight = 31
+pre = "<b>2.1 </b>"
 +++
 1. Sign-in to the Okta Tenant and go to the admin interface. If you see the Okta Dashboard after sign-in, click on the **Admin** button in the top right corner.
 ![User Dashboard Admin](/images/55_user_dashboard_admin.png)

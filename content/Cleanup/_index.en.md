@@ -2,6 +2,7 @@
 title = "Cleanup"
 chapter = true
 weight = 90
+pre = "<b>8. </b>"
 +++
 If you used this Workshop for learning purposes and not for production you should always delete the created resources after you’re through all the steps.
 

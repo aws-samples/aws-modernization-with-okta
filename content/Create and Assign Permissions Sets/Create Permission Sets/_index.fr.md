@@ -2,6 +2,7 @@
 title = "Créer des permissions"
 chapter = false
 weight = 61
+pre = "<b>5.1 </b>"
 +++
 1. Accédez à AWS **IAM Identity Center**.
 ![Create Permission Set](/images/go_to_aws_sso.png)

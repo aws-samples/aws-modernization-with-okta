@@ -2,6 +2,7 @@
 title = "Configurer l'authentification unique (SSO)"
 chapter = false
 weight = 42
+pre = "<b>3.2 </b>"
 +++
 Sélectionnez l'onglet **Sign On** puis sur **View SAML Setup Instructions**.
 Suivez les instructions. Les valeurs dans les instructions sont générées spécifiquement pour votre tenant Okta.

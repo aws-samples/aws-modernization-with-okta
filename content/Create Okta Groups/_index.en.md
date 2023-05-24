@@ -2,7 +2,7 @@
 title = "Create Okta Groups"
 chapter = true
 weight = 30
-
+pre = "<b>2. </b>"
 +++
 The assignment of **Permissions Sets** in **AWS IAM Identity Center** can be configured per user. However, to be more flexible, we create and use groups.
 

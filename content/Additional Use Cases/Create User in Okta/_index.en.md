@@ -2,6 +2,7 @@
 title = "Create User in Okta"
 chapter = false
 weight = 83
+pre = "<b>7.2 </b>"
 +++
 In this use case, we will create a new user in Okta and provide access to AWS IAM Identity Center.
 

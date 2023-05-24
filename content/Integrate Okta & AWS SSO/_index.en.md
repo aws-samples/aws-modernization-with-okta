@@ -2,7 +2,7 @@
 title = "Integrate Okta & AWS IAM Identity Center"
 chapter = true
 weight = 40
-
+pre = "<b>3. </b>"
 +++
 The integration of Okta & AWS IAM Identity Center is straight forward. You create in Okta the AWS IAM Identity Center Application and configure the SSO and Provisioning.
 

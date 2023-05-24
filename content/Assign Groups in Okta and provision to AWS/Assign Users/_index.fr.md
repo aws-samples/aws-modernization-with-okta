@@ -2,6 +2,7 @@
 title = "Assigner des utilisateurs"
 chapter = false
 weight = 51
+pre = "<b>4.1 </b>"
 +++
 Pour permettre aux utilisateurs l’accès via SSO, nous devons les assigner à l'application AWS IAM Identity Center dans Okta. Dès que vous assignez un utilisateur ou un groupe, Okta appellera en arrière-plan les API pour créer l'utilisateur dans AWS IAM Identity Center. Si vous modifiez un attribut mappé, par ex. FirstName, Okta mettra également à jour l'attribut dans AWS IAM Identity Center. Si vous désaffectez un utilisateur, il sera désactivé dans AWS IAM Identity Center. Okta s'occupe de la gestion complète du cycle de vie des utilisateurs.
 

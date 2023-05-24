@@ -2,6 +2,7 @@
 title = "Enable MFA in Okta"
 chapter = false
 weight = 81
+pre = "<b>7.1 </b>"
 +++
 In this use case, you will enable MFA with Okta Verify for every login to Okta and therefore to AWS IAM Identity Center.
 

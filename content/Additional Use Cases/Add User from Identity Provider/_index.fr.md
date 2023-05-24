@@ -2,6 +2,7 @@
 title = "Ajouter un utilisateur à partir d'un fournisseur d'identité"
 chapter = false
 weight = 85
+pre = "<b>7.4 </b>"
 +++
 
 Dans ce cas d'utilisation, nous expliquerons comment utiliser un fournisseur d'identité en tant que source d'utilisateurs. Nous ne ferons pas l'intégration complète, mais nous examinerons les possibilités et les cas d'utilisation courants.

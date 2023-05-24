@@ -2,6 +2,7 @@
 title = "Create Permission Sets"
 chapter = false
 weight = 61
+pre = "<b>5.1 </b>"
 +++
 
 1. Go to AWS Management Console and open the **IAM Identity Center**.

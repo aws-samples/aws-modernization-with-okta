@@ -2,6 +2,7 @@
 title = "Ajouter un utilisateur depuis AD"
 chapter = false
 weight = 84
+pre = "<b>7.3 </b>"
 +++
 Dans ce cas d'utilisation, nous verrons comment utiliser AD ou LDAP comme source d'utilisateurs. Nous ne ferons pas l'intégration complète, mais nous examinerons les possibilités et les cas d'utilisation courants.
 

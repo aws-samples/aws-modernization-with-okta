@@ -2,6 +2,7 @@
 title = "AWS Account"
 chapter = false
 weight = 22
+pre = "<b>1.2 </b>"
 +++
 # Prepare Your Lab Account
 

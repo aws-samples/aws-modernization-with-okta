@@ -2,7 +2,7 @@
 title = "Test"
 chapter = true
 weight = 70
-
+pre = "<b>6. </b>"
 +++
 Tout est configuré pour tester l'accès des utilisateurs à AWS avec les autorisations appropriées.
 Vous pouvez démarrer le test et vous connecter depuis Okta ou AWS.

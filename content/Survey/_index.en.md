@@ -2,7 +2,6 @@
 title = "Survey"
 chapter = true
 weight = 100
-
 +++
 Thank you for participating in our event. We hope you had as much fun attending as we did organizing it.
 

@@ -2,6 +2,7 @@
 title = "Start from AWS"
 chapter = false
 weight = 72
+pre = "<b>6.2 </b>"
 +++
 
 1. Go to the **AWS Management console** and open the **IAM Identity Center**.

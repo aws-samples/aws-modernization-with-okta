@@ -2,6 +2,7 @@
 title = "Créer des groupes Okta"
 chapter = false
 weight = 31
+pre = "<b>2.1 </b>"
 +++
 1. Connectez-vous au tenant Okta et accédez à l'interface d'administration. Si vous voyez le tableau de bord Okta après la connexion, cliquez sur le bouton **Admin** dans le coin supérieur droit.
 ![User Dashboard Admin](/images/55_user_dashboard_admin.png)

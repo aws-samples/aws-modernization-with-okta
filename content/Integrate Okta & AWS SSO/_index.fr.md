@@ -2,7 +2,7 @@
 title = "Intégrer Okta et AWS IAM Identity Center"
 chapter = true
 weight = 40
-
+pre = "<b>3. </b>"
 +++
 L'intégration d'Okta et d'AWS IAM Identity Center est assez simple. Vous créez dans Okta l'application AWS IAM Identity Center et configurez l'authentification unique et le provisionnement.
 
