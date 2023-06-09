@@ -2,6 +2,7 @@
 title = "Configurer l'approvisionnement"
 chapter = false
 weight = 43
+pre = "<b>3.3 </b>"
 +++
 
 1. Allez sur **AWS Management console** et sélectionnez l'onglet **IAM Identity Center**.

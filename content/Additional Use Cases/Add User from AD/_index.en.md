@@ -2,6 +2,7 @@
 title = "Add User from AD"
 chapter = false
 weight = 84
+pre = "<b>7.3 </b>"
 +++
 In this use case, we will discuss how to use AD or LDAP as a user source. We will not do the full integration, but take a look at the capabilities and common use cases.
 

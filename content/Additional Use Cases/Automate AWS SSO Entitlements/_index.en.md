@@ -2,6 +2,7 @@
 title = "Automate AWS IAM Identity Center Entitlements"
 chapter = false
 weight = 87
+pre = "<b>7.6 </b>"
 +++
 Managing Permission Sets for complex environments can be cumbersome. Another approach that is supported by Okta is using Okta Workflows to automate AWS IAM Identity Center entitlements. Configuration of this use case is out of scope for this workshop. For more details, please also watch [the following video starting at 14:30](https://www.okta.com/resources-webinar-okta-and-aws-making-it-easier-to-use-workforce-identity-on-aws/). 
 

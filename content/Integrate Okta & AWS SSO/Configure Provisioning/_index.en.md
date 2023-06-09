@@ -2,6 +2,7 @@
 title = "Configure Provisioning"
 chapter = false
 weight = 43
+pre = "<b>3.3 </b>"
 +++
 
 1. Go to the **AWS Management console** and open the **IAM Identity Center**.

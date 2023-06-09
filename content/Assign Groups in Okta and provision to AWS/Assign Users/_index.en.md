@@ -2,6 +2,7 @@
 title = "Assign Users"
 chapter = false
 weight = 51
+pre = "<b>4.1 </b>"
 +++
 To enable SSO for specific users or groups, we must assign them in Okta to the AWS IAM Identity Center Application. As soon as you assign a user or group, Okta will call in the background the APIs to create the user in AWS IAM Identity Center. If you change a mapped attribute e.g. FirstName, Okta will update the attribute also in AWS IAM Identity Center. If you unassign a user, he will be deactivated in AWS IAM Identity Center. Okta takes care of the full user life-cycle management.
 

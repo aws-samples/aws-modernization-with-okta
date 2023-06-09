@@ -2,6 +2,7 @@
 title = "Compte Okta gratuit"
 chapter = false
 weight = 21
+pre = "<b>1.1 </b>"
 +++
 1. {{% button href="https://developer.okta.com/signup" %}}Cliquez ici pour créer votre compte Okta gratuit{{% /button %}} Aucune carte de crédit n'est requise.
 2. Vous recevrez un e-mail. Cliquez sur le lien pour activer votre compte.

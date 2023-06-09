@@ -2,6 +2,7 @@
 title = "Add User from Identity Provider"
 chapter = false
 weight = 85
+pre = "<b>7.4 </b>"
 +++
 
 In this use case, we will discuss how to use Identity Provider as a user source. We will not do the full integration, but take a look at the capabilities and common use cases.

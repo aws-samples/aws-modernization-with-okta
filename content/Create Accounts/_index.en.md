@@ -2,6 +2,7 @@
 title = "Create Accounts"
 chapter = true
 weight = 20
+pre = "<b>1. </b>"
 +++
 To perform this workshop, you’ll need access to the following:
 

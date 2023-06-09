@@ -2,6 +2,7 @@
 title = "Automatiser les droits AWS IAM Identity Center"
 chapter = false
 weight = 87
+pre = "<b>7.6 </b>"
 +++
 La gestion des permissions pour des environnements complexes peut être fastidieuse. Une autre approche prise en charge par Okta consiste à utiliser Okta Workflows pour automatiser les droits AWS IAM Identity Center. La configuration de ce cas d'utilisation dépasse le cadre de cet atelier.
 Pour plus de détails, veuillez voir [la vidéo suivante à partir de 14:30](https://www.okta.com/resources-webinar-okta-and-aws-making-it-easier-to-use-workforce-identity-on-aws/). 

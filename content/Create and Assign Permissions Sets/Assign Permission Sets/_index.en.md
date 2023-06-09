@@ -2,6 +2,7 @@
 title = "Assign Permission Sets"
 chapter = false
 weight = 62
+pre = "<b>5.2 </b>"
 +++
 
 1. Go to **AWS accounts**, select an **AWS Account** and click on **Assign users or groups**.

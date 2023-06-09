@@ -2,6 +2,7 @@
 title = "Créer une application AWS IAM Identity Center"
 chapter = false
 weight = 41
+pre = "<b>3.1 </b>"
 +++
 
 1. Allez dans **Applications** -> **Applications** et cliquez sur **Browse App Catalog**

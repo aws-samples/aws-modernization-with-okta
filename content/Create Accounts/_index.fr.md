@@ -2,6 +2,7 @@
 title = "Créer des comptes"
 chapter = true
 weight = 20
+pre = "<b>1. </b>"
 +++
 Pour réaliser cet atelier, vous aurez besoin des éléments suivants :
 

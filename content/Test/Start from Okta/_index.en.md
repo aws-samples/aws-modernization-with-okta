@@ -2,6 +2,7 @@
 title = "Start from Okta"
 chapter = false
 weight = 71
+pre = "<b>6.1 </b>"
 +++
 
 1. Go to the **Okta Enduser Dashboard**. If you are still signed in as an administrator in Okta, click on the icon in the top right corner and click on **My end user dashboard**.

@@ -2,6 +2,7 @@
 title = "Attribuer des permissions"
 chapter = false
 weight = 62
+pre = "<b>5.2 </b>"
 +++
 1. Sélectionnez **AWS Account**, sélectionnez un **AWS account** et cliquez sur **Assign users**.
 ![Select Accounts](/images/350_select_accounts.png)

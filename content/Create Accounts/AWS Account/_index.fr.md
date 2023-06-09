@@ -2,6 +2,7 @@
 title = "Compte AWS"
 chapter = false
 weight = 22
+pre = "<b>1.2 </b>"
 +++
 # Préparez votre compte de laboratoire
 

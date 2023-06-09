@@ -2,6 +2,7 @@
 title = "Add Users to Groups"
 chapter = false
 weight = 32
+pre = "<b>2.2 </b>"
 +++
 The next step is to add yourself to the groups.
 

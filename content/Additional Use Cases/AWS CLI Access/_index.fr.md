@@ -2,6 +2,7 @@
 title = "Accès à l'AWS CLI"
 chapter = false
 weight = 88
+pre = "<b>7.7 </b>"
 +++
 Dans ce cas d'utilisation, vous vous connecterez à l'AWS CLI avec Okta via AWS IAM Identity Center.
 

@@ -2,6 +2,7 @@
 title = "Commencer par AWS"
 chapter = false
 weight = 72
+pre = "<b>6.2 </b>"
 +++
 
 1. Allez sur la console AWS et accédez au tableau de bord **AWS IAM Identity Center**.

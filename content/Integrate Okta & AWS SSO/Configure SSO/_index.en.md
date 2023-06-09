@@ -2,6 +2,7 @@
 title = "Configure SSO"
 chapter = false
 weight = 42
+pre = "<b>3.2 </b>"
 +++
 Select the tab **Sign On** and then **View SAML setup instructions**.
 Follow the instructions. The values in the instructions are generated for you Okta Tenant.
